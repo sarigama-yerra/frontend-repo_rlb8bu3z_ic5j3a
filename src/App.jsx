@@ -4,6 +4,8 @@ import Services from './components/Services'
 import Portfolio from './components/Portfolio'
 import TechStack from './components/TechStack'
 import Contact from './components/Contact'
+import ThreeShowcase from './components/ThreeShowcase'
+import GameStrips from './components/GameStrips'
 
 function App() {
   return (
@@ -23,8 +25,10 @@ function App() {
 
       <main>
         <Hero />
+        <ThreeShowcase />
         <About />
         <Services />
+        <GameStrips />
         <Portfolio />
         <TechStack />
         <Contact />
